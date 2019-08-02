@@ -42,6 +42,10 @@ module.exports = function(RED) {
                 numLines = 4;
                 numCols = 20;
                 break;
+            case "16x2":
+                numLines = 2;
+                numCols = 16;
+                break;                
         }
 
         var lcd = new LCD(addr);
